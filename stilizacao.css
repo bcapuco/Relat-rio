@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th, td {
+    border: 2px solid #0c5503;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+img {
+    width: 150px; /* Largura padrão */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #0c5503;
+    display: inline-block; /* Permite que as imagens fiquem lado a lado */
+    margin-bottom: 10px; /* Espaço entre as imagens, se desejado */
+    transition: transform 0.2s; /* Suaviza a transição */
+}
+
+/* Efeito de hover */
+img:hover {
+    transform: scale(2.0); /* Aumenta a imagem para 200% do tamanho original */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao redor da imagem */
+}
+td {
+    white-space: nowrap; /* Impede a quebra de linha */
+}
+
