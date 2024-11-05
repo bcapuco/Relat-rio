@@ -38,8 +38,8 @@ function filtrar() {
         // Obter os valores de cada célula da linha
         const especieTexto = linha.cells[0].textContent.toLowerCase();
         const plaquetaTexto = linha.cells[1].textContent.toLowerCase();
-        const localizacaoTexto = linha.cells[4].textContent.toLowerCase();
-        const responsavelTexto = linha.cells[5].textContent.toLowerCase();
+        const localizacaoTexto = linha.cells[3].textContent.toLowerCase();
+        const responsavelTexto = linha.cells[4].textContent.toLowerCase();
         const qrcodeTexto = linha.cells [2].textContent.toLowerCase();
 
         // Verificar se a linha corresponde a todos os filtros preenchidos
